@@ -32,7 +32,7 @@ Example Playbook
 - hosts: "{{ hosts | default('all') }}"
   user: "{{ user | default('ubuntu') }}"
   roles:
-     - ansible-docker
+     - docker
 ```
 
 License
