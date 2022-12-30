@@ -9,10 +9,3 @@
 
 - name: Debian. Add docker apt repository
   apt_repository: repo="deb {{ docker_repo_base_url }}/{{ ansible_distribution|lower }} {{ ansible_distribution_release }} stable" state=present
-
-- name: Debian. Purge the old repo if it exists
-  apt: name={{ item }} purge=yes
-  with_items:
-    - "lxc-docker*"
-    - "docker.io*"
-  ignore_errors: yes
