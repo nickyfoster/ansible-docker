@@ -34,3 +34,8 @@ Example Playbook
   roles:
      - ansible-docker
 ```
+
+License
+-------
+
+BSD
