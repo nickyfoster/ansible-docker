@@ -1,6 +1,8 @@
 galaxy_info:
+  role_name: docker
   author: Nikita Guliaev
-  description: Ansible role for docker installation
+  namespace: mrf0str
+  description: Ansible role for Docker installation
   license: license (GPL-2.0-or-later, MIT, etc)
 
   min_ansible_version: 2.1
