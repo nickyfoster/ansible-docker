@@ -12,12 +12,12 @@
 - name: Install docker sdk pip package
   pip:
     name: docker<=4.4.4
-    executable: pip2
+    executable: pip3
   
 - name: Install websocket-client package
   pip:
     name: websocket-client==0.58.0
-    executable: pip2
+    executable: pip3
 
 - name: Ensure docker config directory is exists
   file:
